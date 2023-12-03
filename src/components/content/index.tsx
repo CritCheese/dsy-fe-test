@@ -49,14 +49,14 @@ export const ContentComponent2 = () => {
 
   return (
     // <Content className={styles.content}>
-      {data}
+      // {data}
 
 
-    //   <Row style={{ marginBottom: '2rem' }}>
-    //     <Col span={10}>
-    //       <Item2 name={'file-copy.txt' || undefined} />
-    //     </Col>
-    //   </Row>
+      <Row style={{ marginBottom: '2rem' }}>
+        <Col span={10}>
+          <Item2 name={'file-copy.txt' || undefined} />
+        </Col>
+      </Row>
     //   <Row style={{ marginBottom: '2rem' }}>
     //     <Col span={10}>
     //       <Item2 name={'home.mp3' || undefined} />
