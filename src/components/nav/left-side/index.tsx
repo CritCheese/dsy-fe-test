@@ -89,7 +89,7 @@ export const LeftSideBar: React.FC<Props> = ({ setSelectedFolder }) => {
 
   const onSelectFolder = (item: any) => {
     console.log(item);
-    if (item.keyPath.length == 2) {
+    if (item.keyPath.length === 2) {
       const folder = mockData[0]?.children?.find(
         (child) => child.id === item.keyPath[0]
       );

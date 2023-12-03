@@ -11,7 +11,7 @@ type Props = {};
 
 export const HomePage: React.FC<Props> = () => {
   const [selectedFolder, setSelectedFolder] = useState<Folder>();
-  if (sessionStorage.getItem("logged in") != "true") {
+  if (sessionStorage.getItem("logged in") !== "true") {
     window.location.replace("/")
     return(<Space></Space>)
   } else {
